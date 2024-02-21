@@ -1,70 +1,105 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+  <br>
+    <img align="left"  width="200" src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/dragdrop_hd.gif">
+    <img width="150" src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/logo.png">
+    <img align="right"  width="200" src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/dragdrop_hd.gif">
+  <br>
+  Weather-Forecast Implementation
+  <br>
+</h1>
 
-## Available Scripts
+<h4 align="center">A minimal java  Weather-Forecast app with awesome UI based on <a href="https://docs.oracle.com/javase/tutorial/uiswing/">Swing</a>.</h4>
 
-In the project directory, you can run:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Build Status](https://travis-ci.org/PanagiotisDrakatos/Weather-Forecast.svg?branch=master)](https://travis-ci.org/PanagiotisDrakatos/Weather-Forecast)
+[![star this repo](http://githubbadges.com/star.svg?user=PanagiotisDrakatos&repo=Weather-Forecast&style=flat&color=fff&background=007ec6)](https://github.com/PanagiotisDrakatos/Weather-Forecast)
+[![GitHub Issues](https://img.shields.io/github/issues/PanagiotisDrakatos/Weather-Forecast.svg)](https://github.com/PanagiotisDrakatos/Weather-Forecast/issues)
+[![License](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/LICENSE)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/PanagiotisDrakatos/Weather-Forecast.svg)](https://travis-ci.org/PanagiotisDrakatos/Weather-Forecast/pull_requests)
 
-### `npm start`
+<p align="center">
+  <img  src="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/ImagesDoc/ezgif.com-video-to-gif.gif">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Basic Overview
+Weather-Forecast app is what the title says it is. It's a quick, simple weather app. The features include the basics, including forecasts, current temperature, hourly forecasts, and more. Other than that, it's really not all that complicated. It's free to download with no in-app purchases and the source code available.
+ 
+The weather app supports global locations and has customizable Live Tile support. It is a nice option for the times you just need to check in on the weather to plan for your week ahead, your weekend plans or any other times when the weather could play a factor. This Weather app has a host of updates since released, with a few new features added to the mix. Furthermore, it delivers the basic weather information among with useful informations(Pressure clouds,Wind Speed) to your Windows computer in a clean, eye-catching and easy to use package together.
 
-### `npm test`
+# Benefits of Weather-Forecast
+Make confident decisions by using this awesome weather desktop application in order to get the current weather forecast for any city. Weather-Forecast has loads of features. However, the following list is a glimpse of that huge features list.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+ * Awesome UI app.
+ * Easy to use.
+ * Value For Money.
+ * Available SourceCode.
+ * Your current conditions.
+ * A 7-Day forecast.
+ * Switching to your current locations based on your computer's Location Services.
+ 
+# API Usage
+The Weather-Forecast uses the  OpenWeatherMap API to get the current weather. OpenWeatherMap API is free to use for smaller-scale applications. Large applications with bigger user bases may need to opt into one of the paid plans in order to satisfy the higher call–per-minute needs. The free tier comes with the following restrictions:
 
-### `npm run build`
+ * 1,200 API calls per minute
+ * Weather history no greater than one day old
+ * 95% up time
+ * Weather data updates every 2 hours
+ * No SSL
+ 
+ If you need more calls per minute, increased up time, more frequent weather updates, or secured access, you’ll need to pay subscription. Regardless of which tier you decide to use, you need to register an API key for your application. To do this, register your application  by <a href="http://openweathermap.org/appid">signing up</a> for an account. Once logged in, you can find the key under the setup tab. Since the API is public access, the key needs to be added as a parameter to whatever API endpoint you send a request to.
+ 
+# Features Instructions
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+ * Maven Sample project Included with proper way to construct an app.
+ * The working Java sample includes both front End and Backend source code of the application.
+ * It is tested and ready to be used for commercial  purposes or to adapt it on any desirable desktop app specification you want.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# What You will Need?
+* About 15 minutes.
+* A favorite JAVA text editor or IDE.
+* JDK 8 or later.
+* Download and unzip the source repository for this guide.
+* cd into the Path that you previous Downlaod.
+* et voila! You are ready to adapt it to match it with your specifications.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+# Build The Sample
+<ol>
+<li>If you download the samples ZIP, be sure to unzip the entire archive. </li>
+<li>Start Netbeans and select <strong>File</strong> &gt; <strong>Open</strong> &gt; <strong>Project</strong>.</li>
+<li>Press Ctrl+Shift+B, or select <strong>Build</strong> &gt; <strong>Clean & Build Project</strong>.</li>
+</ol>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+# Support
+Please [open an issue](https://github.com/PanagiotisDrakatos/Weather-Forecast/issues) for support or even more [open a pull request](https://github.com/PanagiotisDrakatos/Weather-Forecast/pulls).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# License
+<p> This project is licensed under the Apache License 2.0  see the <a href="https://github.com/PanagiotisDrakatos/Weather-Forecast/blob/master/LICENSE"> Licence.md </a> file for details</p>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+# Contacts
+Don't hesitate to ask me whatever you want. Stay tuned for more awesome projects :kissing_heart: . Follow me or Connect me via <a href="https://www.linkedin.com/in/panagiotis-drakatos-b56a0385/">Linkedin<a/>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+# Contributing
 
-### Analyzing the Bundle Size
+Please contribute using [Github Flow](https://github.com/PanagiotisDrakatos/Weather-Forecast). Create a branch, add commits.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ 1. Fork it: git clone https://github.com/PanagiotisDrakatos/Weather-Forecast.git
+ 2. Create your feature branch: git checkout -b my-new-feature
+ 3. Commit your changes: git commit -am 'Add some feature'
+ 4. Push to the branch: git push origin my-new-feature
+ 5. Submit a pull request 
+ 6. :smile: :smile: :smile:
+ 
+ 
+ 
+ # Donate
+ 
+ If you have found this project useful, please consider making a donation to contribute for more awesome projects
+  [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.me/Drakatos)
