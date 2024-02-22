@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import useGetWeather from "./hooks/useGetWeather";
+import Chart from "../Chart/Chart";
 
 const Weather = () => {
   const [currentBrowserLatLong, setCurrentBrowserLatLong] = useState();
@@ -21,9 +22,20 @@ const Weather = () => {
     }
     getLocation();
   }, []);
-  console.log(currentBrowserLatLong);
+  // console.log(currentBrowserLatLong);
   return (
-    <div className=" border-2 border-black">{weatherInfo?.location?.name}</div>
+    <div className=" border-2 border-black">
+      <div className="flex justify-center">
+        <div>
+          <h3>{weatherInfo?.location?.name}</h3>
+          <h1>{weatherInfo?.current?.temp_c}</h1>
+          <span>{weatherInfo?.current?.condition.text}</span>
+          <img src={weatherInfo?.current.condition.icon} alt="" />
+        </div>
+
+        <Chart />
+      </div>
+    </div>
   );
 };
 
